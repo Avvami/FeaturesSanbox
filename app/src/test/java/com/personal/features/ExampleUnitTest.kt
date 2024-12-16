@@ -1,4 +1,4 @@
-package com.personal.featurestest
+package com.personal.features
 
 import org.junit.Test
 

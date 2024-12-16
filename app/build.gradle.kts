@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.personal.featurestest"
-    compileSdk = 34
+    namespace = "com.personal.features"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.personal.featurestest"
+        applicationId = "com.personal.features"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -67,4 +67,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.material3.adaptive.navigation.suite)
+    implementation(libs.androidx.navigation.compose)
 }

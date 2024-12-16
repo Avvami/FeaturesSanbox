@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FeaturesTest"
+rootProject.name = "ComposeFeatures"
 include(":app")
  
